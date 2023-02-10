@@ -1,0 +1,28 @@
+name: VentureShopSearcher
+version: ${project.version}
+api-version: 1.13
+main: venture.Aust1n46.shopsearcher.initiators.application.VentureShopSearcher
+depend: [Shopkeepers]
+author: Aust1n46
+description: Shop searcher
+commands:
+    shop:
+        usage: /shop
+        aliases: [vshop]
+        description: Opens shop GUI
+        permission-message: You don't have <permission>
+    setplot:
+        usage: /setplot [player] [location]
+        aliases: [vsetplot]
+        description: Sets a players plot
+        permission-message: You don't have <permission>
+    getplot:
+        usage: /getplot [player]
+        aliases: [vgetplot]
+        description: Gets a players plot
+        permission-message: You don't have <permission>
+    clearplot:
+        usage: /clearplot [player]
+        aliases: [vclearplot]
+        description: Clears a players plot
+        permission-message: You don't have <permission>

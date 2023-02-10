@@ -1,0 +1,5 @@
+Version: 1.0.0
+CommandInvalidArguments: '&cInvalid command: {command} {args}'
+CommandMustBeRunByPlayer: '&cThis command must be run by a player.'
+CommandNoPermission: '&cYou do not have permission for this command.'
+PlayerOffline: '&cPlayer: &6{args} &cis not online.'
